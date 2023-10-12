@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/img.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 19%;
+    left: 3%;
+}
+
+#head {
+    display: block;
+    margin: 5px 9px;
+    padding: 4px;
+    color: rgb(200 200 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 2px 0px 10px rgb(107 168 243);
+}
+
+
+
+
+
+
+.box input {
+    width: 90%;
+    border: 2px solid rgb(225, 231, 237);
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 2px;
+    padding: 3px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: -3px 2px 0px 0px rgb(132 173 224);
+    background: none;
+    color: rgb(229, 212, 212);
+
+}
+
+.box input:hover {
+    background-color: rgba(213, 202, 182, 0.738);
+}
+
+
+.box {
+    width: 100%;
+    height: auto;
+    margin: 2px;
+    padding: 3px 0px;
+    text-align: center;
+
+
+
+}
+
+.btn {
+    position: relative;
+    left: 37%;
+    background: none;
+    border-radius: 26px;
+    outline: none;
+    margin: 6px;
+    padding: 0px 10px;
+    cursor: pointer;
+    border: 2px solid rgb(238, 230, 230);
+    width: 4rem;
+    background-color: rgb(242 242 247 / 62%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    text-shadow: 8px 3px 19px rgb(195 207 222);
+}
+
+.btn:hover {
+    background-color: #e7cccc;
+}
